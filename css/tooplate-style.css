@@ -513,6 +513,15 @@ strong {
     position: relative;
     bottom: 50px;
   }
+  .height-xl {
+    height: 250px !important;
+  }
+}
+@media (max-width: 1270px) {
+ 
+  .height-xl {
+    height: 250px !important;
+  }
 }
 @media (max-width: 991px) {
   .full-screen {
@@ -534,6 +543,9 @@ strong {
 
   .contact-info {
     padding: 0 2rem;
+  }
+  .height-lg {
+    height: 150px !important;
   }
 }
 @media (max-width: 767px) {
@@ -583,6 +595,9 @@ strong {
   .timeline-info small {
     display: block;
     margin: 10px 0 0 0;
+  }
+  .height-md {
+    height: 250px !important;
   }
 }
 @media (max-width: 320px) {
